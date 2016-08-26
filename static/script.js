@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function() {
   var os = window.navigator.userAgent.match(/\(([^)]+)\)/);
-  $.get("//ipinfo.io", function(response) {
+  $.get("https://api.ipify.org?format=jsonp", function(res) {
     $('#output').text(
-      '{ "ipaddress":' + '"' + response.ip + '"' +
+      '{ "ipaddress":' + '"' + res.ip + '"' +
       ', "language":' + '"' + window.navigator.languages[0] + '"' +
       ',"software":' + '"' + os[1] + '"' + ' }'
     );

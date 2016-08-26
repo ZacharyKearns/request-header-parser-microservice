@@ -5,8 +5,10 @@ app.use(express.static(__dirname + '/static'));
 
 app.set('port', (process.env.PORT || 5000));
 
+app.set('view engine', 'ejs');
+
 app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/index.html');
+  res.render('index');
 });
 
 app.listen(app.get('port'), function () {
