@@ -1,7 +1,7 @@
 {
-  "name": "timestamp",
+  "name": "RequestHeaderParserMicroservice",
   "version": "1.0.0",
-  "description": "A timestamp microservice",
+  "description": "Free Code Camp API Project",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
