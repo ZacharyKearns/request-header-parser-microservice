@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^1.0.0",
-    "express": "^4.14.0",
-    "ipware": "0.0.8"
+    "express": "^4.14.0"
   },
   "engines": {
     "node": "4.4.3"
